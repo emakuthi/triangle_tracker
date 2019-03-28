@@ -1,6 +1,14 @@
 .form {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 20px;
   background-color: blue;
+  height: 50px;
+  margin: 20px;
+  padding: 20px;
 }
+
+.input {
+  margin: 20px;
+  padding: 20px;
+ }
