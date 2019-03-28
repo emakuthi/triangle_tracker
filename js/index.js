@@ -10,28 +10,30 @@ function scanInputs() {
 	var BC = B + C;//side B + C
 	var A2B2 = sideAsqrd + sideBsqrd;
 	var A2C2 = sideAsqrd + sideCsqrd;
-	var B2C2 = sideBsqrd + sideCsqrd;
+  var B2C2 = sideBsqrd + sideCsqrd;
+  var text;
 	if ((AB > C) && (AC > B) && (BC > A)) {
-		alert("These numbers could form a triangle.");
+    text = "These numbers could form a triangle.";
 	}
 	if ((sideAsqrd == B2C2) || (sideBsqrd == A2C2) || (sideCsqrd == A2B2)) 
   {
-		alert("These numbers could also form a right triangle.");
+		text = "These numbers could also form a right triangle.";
 	}
   if((A === B)&&(A === C)&&(C === B))
   {
-    alert("This is an EQUILATERAL TRIANGLE");
+    text= "This is an EQUILATERAL TRIANGLE";
   }
   if((A !== B)&&(A !== C)&&(C !== B))
   {
-    alert("This is a SCALENE");
+    text = "This is a SCALENE";
   }
   if((A === B)||(A === C)||(C === B))
   {
-    alert("This is a ISOCSELES");
+    text = "This is a ISOCSELES";
   }
 	else 
   {
-		alert("These 3 sides can not form a triangle.");
-	}	
+		text = "These 3 sides can not form a triangle.";
+  }	
+  document.getElementById("display").innerHTML;
 }
