@@ -27,7 +27,7 @@ function scanInputs() {
   {
     text = "This is a SCALENE";
   }
-  if((A === B)||(A === C)||(C === B))
+  if((A === B !== C)||(A === C !==B)||(C === B !== C))
   {
     text = "This is a ISOCSELES";
   }
