@@ -6,16 +6,18 @@
     <script src="js/index.js"></script>
   </head>
   <body>
-    <h1>TRIANGLE TRACKER</h1>
-      <form NAME="scanned_Inputs" METHOD="GET">
+    <h2>TRIANGLE TRACKER</h2>
+      <form NAME="scanInputs" METHOD="GET">
         <div class="form">
-          <h1>PLEASE ENTER LENGTH OF THE SIDES ON THE BOXES BELOW</h1>
-          <div>Side A: <input type="text" name=" sideA" maxlength="4" size="4"></div>
-          <div>Side B: <input type="text" name="sideB" maxlength="4" size="4"></div>
-          <div>Side C: <input type="text" name="sideC" maxlength="4" size="4"></div>
+          <p>Enter side A:</p>
+          <input type="text" name="sideA" maxlength="4" size="4" ><br />
+          <p>Enter side B:</p>
+          <input type="text" name="sideB" maxlength="4" size="4" ><br />
+          <P>Enter side C:</P>
+          <input type="text" name="sideC"  maxlength="4" size="4"><br />
         </div>
         <div class="input">
-          <input type="submit" value="Submit">
+          <input type="button" value="submit" onclick="scanInputs();">
         </div>
       </form>
   </body>
