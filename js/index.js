@@ -37,7 +37,8 @@ function myFunction() {
 	}
 	else 
   {
-		text = "can not form a TRIANGLE.";
+    text = "can not form a TRIANGLE.";
+    document.getElementById("image").innerHTML ='<img src="images/not_triangle.jpg" alt="not_triangle"height="360" width="360".>'
   }	
   sides.push([[A],[B],[C]]);
   document.getElementById("display").innerHTML = "Values"+" "+"["+sides +"]"+ " "+ text ;
