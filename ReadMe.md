@@ -16,6 +16,7 @@ A bug has been noted of the application allowing any input to be entered. but th
 This application was developed using css, javascript and html and can be opened using any browser by running the index.html. but i prefer using chrome to get the full experience.
 ## Support and contact details
 For support and more information:email:emakuthi@gmail.com.
+visit :https://emakuthi.github.io/triangle_tracker/
 ### License
 *licenced by MIT*
 Copyright (c) 2019 **Authored by Elvis Makuthi**
