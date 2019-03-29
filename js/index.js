@@ -17,7 +17,7 @@ function myFunction() {
     if ((sideAsqrd == B2C2) || (sideBsqrd == A2C2) || (sideCsqrd == A2B2)) 
     {
       text = "can form a RIGHT ANGLED TRIANGLE.";
-      document.getElementById("image").innerHTML ='<img src="images/isosceles.jpg" alt="right angle "height="360" width="360".>'
+      document.getElementById("image").innerHTML ='<img src="images/Right_Angles_Triangle.jpg" alt="right angle "height="360" width="360".>'
     }
     else if((A === B)&&(A === C)&&(C === B))
     {
