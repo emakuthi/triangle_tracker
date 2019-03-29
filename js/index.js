@@ -17,22 +17,22 @@ function myFunction() {
     if ((sideAsqrd == B2C2) || (sideBsqrd == A2C2) || (sideCsqrd == A2B2)) 
     {
       text = "can form a RIGHT ANGLED TRIANGLE.";
-      document.getElementById("image").innerHTML ='<img src="images/Right_Angles_Triangle.jpg" alt="right angle "height="360" width="360".>'
+      document.getElementById("image").innerHTML ='<img src="images/Right_Angles_Triangle.jpg" alt="right angle "height="200" width="200".>'
     }
     else if((A === B)&&(A === C)&&(C === B))
     {
       text = "can form an EQUILATERAL TRIANGLE";
-      document.getElementById("image").innerHTML ='<img src="images/Equilateral.jpg" alt="Equilateral "height="360" width="360".>'
+      document.getElementById("image").innerHTML ='<img src="images/Equilateral.jpg" alt="Equilateral "height="200" width="200".>'
     }
     else if((A !== B)&&(A !== C)&&(C !== B))
     {
       text = "can form a SCALENE TRIANGE";
-      document.getElementById("image").innerHTML ='<img src="images/scalene_triangle.jpg" alt="scalene_triangle"height="360" width="360".>'
+      document.getElementById("image").innerHTML ='<img src="images/scalene.jpg" alt="scalene_triangle"height="360" width="360".>'
     }
     else if(((A === B)&&(A !== C)&&(B !== C)) ||((B === C)&&(A !==B)&&(A !== C ) )||((A === C)&&(B !== C)&&(B !== A)))
     {
       text = "can form an ISOCSELES TRIANGE";
-      document.getElementById("image").innerHTML ='<img src="images/isosceles.jpg" alt="right angle "height="360" width="360".>'
+      document.getElementById("image").innerHTML ='<img src="images/isosceles.jpg" alt="isosceles_triangle"height="360" width="360".>'
     }
 	}
 	else 

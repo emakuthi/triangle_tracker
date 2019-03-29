@@ -7,23 +7,22 @@
   </head>
   <body>
     <script src="js/index.js"></script>
-    <h2>TRIANGLE TRACKER</h2>
-    <h4>The application tests whether value entered can form a triangle and if yes which type of triangle it is</h4>
+    <h1>TRIANGLE TRACKER</h1>
+    <h2>The application tests whether value entered can form a triangle and if yes which type of triangle it is</h3>
       <form NAME="scanInput" METHOD="GET">
         <div class="form">
           <div id="input">
             <h2>Enter side A: <input type="text" name="sideA" ></h2>
             <h2>Enter side B: <input type="text" name="sideB"> </h2>
             <h2>Enter side C: <input type="text" name="sideC"> </h2>
+            <input type="button" value="submit" onclick="myFunction()" maxlength="4" size="4">
+            <input type="reset" value="clear">  
           </div>
           <div id="image">
 
           </div>
         </div>
-        <div class="input">
-          <input type="button" value="submit" onclick="myFunction()" maxlength="4" size="4">
-          <input type="reset" value="clear">
-        </div>
+      
       </form>
       <div class ="output">
         <h3 id="display"></h3>

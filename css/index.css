@@ -6,11 +6,11 @@ body{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  background-color: blue;
-  height: 500px;
-  margin: 20px;
-  width: 80%;
-  padding: 20px;
+  background-color: rgb(69, 174, 201);
+  height: 10%;
+  margin-left: 20px;
+  width: 60%;
+  padding: 0px;
 }
 
 .input {
@@ -21,13 +21,13 @@ body{
  }
  .output{
    background-color: aqua;
-   height:50px;
+   height:30px;
    width: 500px;
-   margin: 20px;
-   padding: 20px;
+   margin-left: 10%;
+   padding: 10px;
    align-content: center;
  }
- h2,h4{
+ h1,h2{
   margin: 20px;
   font-family: 'Germania One', cursive;
  }
@@ -36,8 +36,8 @@ body{
 }
 #image{
   background-color: white;
-  height: 400px;
-  width: 450px;
+  height: 200px;
+  width: 200px;
   float: left;
   margin: 20px;
   padding: 20px
