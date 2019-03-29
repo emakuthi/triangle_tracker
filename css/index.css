@@ -11,4 +11,17 @@
 .input {
   margin: 20px;
   padding: 20px;
+  background-color: grey;
+ }
+ .output{
+   background-color: aqua;
+   height:50px;
+   width: 500px;
+   margin: 20px;
+   padding: 20px;
+   align-content: center;
+ }
+ h2,h4{
+  margin: 20px;
+  font-family: 'Germania One', cursive;
  }
