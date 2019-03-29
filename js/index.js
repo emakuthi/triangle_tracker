@@ -1,7 +1,8 @@
 function myFunction() {
 	var A = parseInt(document.scanInput.sideA.value);//converts input for side A to integer
 	var B = parseInt(document.scanInput.sideB.value);//converts for side B
-	var C = parseInt(document.scanInput.sideC.value);//converts for side C
+  var C = parseInt(document.scanInput.sideC.value);//converts for side C
+  var sides = [];
 	var sideAsqrd = A *A;//side A squared for pythagorean theorem
 	var sideBsqrd = B * B;//side B squared
 	var sideCsqrd = C * C;//side C squared
@@ -15,24 +16,25 @@ function myFunction() {
 	if ((AB > C) && (AC > B) && (BC > A)) {
     if ((sideAsqrd == B2C2) || (sideBsqrd == A2C2) || (sideCsqrd == A2B2)) 
     {
-      text = "These numbers could also form a right triangle.";
+      text = "can form a RIGHT ANGLED TRIANGLE.";
     }
     else if((A === B)&&(A === C)&&(C === B))
     {
-      text = "This is an EQUILATERAL TRIANGLE"
+      text = "can form an EQUILATERAL TRIANGLE"
     }
     else if((A !== B)&&(A !== C)&&(C !== B))
     {
-      text = "This is a SCALENE";
+      text = "can form a SCALENE TRIANGE";
     }
     else if(((A === B)&&(A !== C)&&(B !== C)) ||((B === C)&&(A !==B)&&(A !== C ) )||((A === C)&&(B !== C)&&(B !== A)))
     {
-      text = "This is a ISOCSELES";
+      text = "can form an ISOCSELES TRIANGE";
     }
 	}
 	else 
   {
-		text = "These 3 sides can not form a triangle.";
+		text = "can not form a TRIANGLE.";
   }	
-  document.getElementById("display").innerHTML = text;
+  sides.push([[A],[B],[C]]);
+  document.getElementById("display").innerHTML = sides + " "+ text ;
 }
