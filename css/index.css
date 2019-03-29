@@ -1,11 +1,13 @@
+
+
 .form {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   background-color: blue;
-  height: 250px;
+  height: 500px;
   margin: 20px;
-  width: 50%;
+  width: 80%;
   padding: 20px;
 }
 
@@ -13,6 +15,7 @@
   margin: 20px;
   padding: 20px;
   background-color: grey;
+  width: 50%;
  }
  .output{
    background-color: aqua;
@@ -27,11 +30,22 @@
   font-family: 'Germania One', cursive;
  }
  input[type="text"]{
-  width:10%;/* Whatever percent you want*/
+  width:20%;
 }
 #image{
   background-color: white;
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 450px;
   float: left;
+  margin: 20px;
+  padding: 20px
+  
+
+}
+#input{
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+  padding: 20px
 }
