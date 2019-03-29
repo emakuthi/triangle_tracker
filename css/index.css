@@ -3,8 +3,9 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   background-color: blue;
-  height: 200px;
+  height: 250px;
   margin: 20px;
+  width: 50%;
   padding: 20px;
 }
 
@@ -25,3 +26,12 @@
   margin: 20px;
   font-family: 'Germania One', cursive;
  }
+ input[type="text"]{
+  width:10%;/* Whatever percent you want*/
+}
+#image{
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  float: left;
+}

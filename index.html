@@ -11,16 +11,21 @@
     <h4>The application tests whether value entered can form a triangle and if yes which type of triangle it is</h4>
       <form NAME="scanInput" METHOD="GET">
         <div class="form">
-          <p>Enter side A:</p>
-          <input type="text" name="sideA" ><br />
-          <p>Enter side B:</p>
-          <input type="text" name="sideB" maxlength="2" size="4" ><br />
-          <P>Enter side C:</P>
-          <input type="text" name="sideC"  maxlength="2" size="4"><br />
+          <div id="input">
+            <h2>Enter side A:</h2>
+            <input type="text" name="sideA" ><br />
+            <h2>Enter side B:</h2>
+            <input type="text" name="sideB"  ><br />
+            <h2>Enter side C:</h2>
+            <input type="text" name="sideC"  ><br />
+          </div>
+          <div id="image">
+          
+          </div>
         </div>
         <div class="input">
           <input type="button" value="submit" onclick="myFunction()" maxlength="4" size="4">
-          <input type="reset" value="Reset">
+          <input type="reset" value="clear">
         </div>
       </form>
       <div class ="output">
