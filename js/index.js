@@ -20,7 +20,7 @@ function myFunction() {
     }
     else if((A === B)&&(A === C)&&(C === B))
     {
-      text = "can form an EQUILATERAL TRIANGLE"
+      text = "can form an EQUILATERAL TRIANGLE";
     }
     else if((A !== B)&&(A !== C)&&(C !== B))
     {
@@ -36,5 +36,5 @@ function myFunction() {
 		text = "can not form a TRIANGLE.";
   }	
   sides.push([[A],[B],[C]]);
-  document.getElementById("display").innerHTML = sides + " "+ text ;
+  document.getElementById("display").innerHTML = "Values"+" "+"["+sides +"]"+ " "+ text ;
 }
