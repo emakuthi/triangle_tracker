@@ -27,18 +27,18 @@ function myFunction() {
     else if((A !== B)&&(A !== C)&&(C !== B))
     {
       text = "can form a SCALENE TRIANGE";
-      document.getElementById("image").innerHTML ='<img src="images/scalene.jpg" alt="scalene_triangle"height="360" width="360".>'
+      document.getElementById("image").innerHTML ='<img src="images/scalene.jpg" alt="scalene_triangle"height="200" width="200".>'
     }
     else if(((A === B)&&(A !== C)&&(B !== C)) ||((B === C)&&(A !==B)&&(A !== C ) )||((A === C)&&(B !== C)&&(B !== A)))
     {
       text = "can form an ISOCSELES TRIANGE";
-      document.getElementById("image").innerHTML ='<img src="images/isosceles.jpg" alt="isosceles_triangle"height="360" width="360".>'
+      document.getElementById("image").innerHTML ='<img src="images/isosceles.jpg" alt="isosceles_triangle"height="200" width="200".>'
     }
 	}
 	else 
   {
     text = "can not form a TRIANGLE.";
-    document.getElementById("image").innerHTML ='<img src="images/not_triangle.jpg" alt="not_triangle"height="360" width="360".>'
+    document.getElementById("image").innerHTML ='<img src="images/not_triangle.jpg" alt="not_triangle"height="200" width="200".>'
   }	
   sides.push([[A],[B],[C]]);
   document.getElementById("display").innerHTML = "Values"+" "+"["+sides +"]"+ " "+ text ;
